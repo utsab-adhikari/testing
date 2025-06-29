@@ -1,3 +1,4 @@
+"use client"
 import { Calendar, Home, Inbox, LogIn, Search, Settings } from "lucide-react";
 
 import {

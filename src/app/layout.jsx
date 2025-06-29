@@ -1,7 +1,6 @@
-// Layout.tsx
+
 "use client";
 
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import { AppSidebar } from "@/mycomponents/AppSidebar";
@@ -9,7 +8,7 @@ import Footer from "@/mycomponents/Footer";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { IoMdArrowRoundBack } from "react-icons/io";
-import { Button } from "@/components/ui/button";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function Layout({ children }) {
   const pathname = usePathname();
